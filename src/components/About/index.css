@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .home-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 6, 67);
+    height: 100vh;
+  }
+  .head-a {
+    color: orange;
+    font-family: "Bree serif";
+    font-size: 15px;
+  }
+  .about-card {
+    padding: 10px;
+    width: 1200px;
+  }
+  .p-about {
+    width: 600px;
+    color: #fff;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .home-bg {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(6, 6, 67);
+  }
+  .head-a {
+    text-align: center;
+    color: orange;
+    font-family: "Bree serif";
+  }
+  .about-card {
+    padding: 10px;
+    width: 1200px;
+  }
+  .p-about {
+    width: 600px;
+    color: #fff;
+    padding: 10px;
+  }
+}
